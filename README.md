@@ -6,3 +6,4 @@ github
 **Truth** | **Dare**
 --------- | --------
 Spaghetti is Italian | Jump in the pond!
+Kaleb is a boy. | Say no to **EVERYTHING**!
