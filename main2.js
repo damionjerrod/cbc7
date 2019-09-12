@@ -24,13 +24,17 @@ loopTwo();
 
 
 //Created loope from 0 to 100 but couldn't figure out the rest.
-var count = 0;
-function loopThree(){
-    while(count <= 100){
-        console.log(count);
-        count++;
+var fizz = "fizz"; //3
+var buzz = "buzz"; //5
+var fizbuzz = "fizzbuzz"; //both
+
+for(var i=0; i<100; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log("fizzbuzz");
+    } else if (i % 3 === 0) {
+        console.log("fizz");
+    } else if (i % 5 === 0) {
+        console.log("buzz");
     }
+    i++;
 }
-
-loopThree();
-

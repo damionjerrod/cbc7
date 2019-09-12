@@ -22,3 +22,5 @@ function functionThree(start, finish) {
     while(start == 2 && finish <= 10){
         console.log(startFinish);
         count++;
+
+
