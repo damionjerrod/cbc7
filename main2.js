@@ -13,6 +13,7 @@ loopOne();
 
 //Here's my while loop logging every other number up until 50.
 var count = 0;
+
 function loopTwo(){
     while(count <= 50){
         console.log(count);
@@ -23,18 +24,23 @@ function loopTwo(){
 loopTwo();
 
 
-//Created loope from 0 to 100 but couldn't figure out the rest.
+//Had to redo this one. Finally got it right!!!
 var fizz = "fizz"; //3
 var buzz = "buzz"; //5
-var fizbuzz = "fizzbuzz"; //both
+var fizzbuzz = "fizzbuzz"; //both
+var count = 0;
 
-for(var i=0; i<100; i++){
-    if(i % 3 === 0 && i % 5 === 0){
-        console.log("fizzbuzz");
-    } else if (i % 3 === 0) {
-        console.log("fizz");
-    } else if (i % 5 === 0) {
-        console.log("buzz");
+function loopThree(){
+    for(var i=0; i<100; i++){
+        if(i % 3 === 0 && i % 5 === 0){
+            console.log(count + "fizzbuzz");
+        } else if (i % 3 === 0) {
+            console.log(count + "fizz");
+        } else if (i % 5 === 0) {
+            console.log(count + "buzz");
+        }
+        count++;
     }
-    i++;
 }
+
+loopThree();

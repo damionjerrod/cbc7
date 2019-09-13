@@ -1,26 +1,24 @@
-//function that adds two arguments.
-var totalOne = functionOne(6, 6);
-function functionOne(num1, num1) {
-    return num1 + num1;
+//1. Create a function that takes two arguments and adds them together.
+function addEm(){
+    var numOne = 4;
+    var numTwo = 2;
+    console.log(numOne + numTwo);
 }
 
-console.log(totalOne);
+addEm();
 
 
-//function that multiplies two arguments.
-var totalTwo = functionTwo(6, 6);
-function functionTwo(num2, num2) {
-    return num2 * num2;
+//Create a function that takes two arguments and mutiplies them together.
+function multiplyEm(){
+    var numOne = 5;
+    var numTwo = 10;
+    console.log(numOne * numTwo);
 }
 
-console.log(totalTwo);
+multiplyEm();
 
 
-//couldn't figure this out.
-var startFinish = functionThree(2, 10);
-function functionThree(start, finish) {
-    while(start == 2 && finish <= 10){
-        console.log(startFinish);
-        count++;
-
-
+//create a function that takes two arguments where the first argument is the start number and the second argument is the end number. 
+function fruitLoop(){
+    for(i = 0; i = 100; i++)
+}
