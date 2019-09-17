@@ -24,20 +24,29 @@ function fillArray(){
     inventory["Butter"] = 50,
     inventory["Milk"] = 50,
     inventory["Chicken"] = 0;
+}
 
+function countEmUp(){
     for(var itemName in inventory){
         var itemCount = inventory[itemName];
         console.log(itemName, itemCount);
     }
+}
 
 // I couldn't figure out how to get the loop right.
-    for(var i = 0; i < itemCount.length; i++){
-        console.log(itemCount[i])
+function countLoop(){
+    for(var i = 0; i < inventory.length; i++){
+        console.log(inventory[i])
     }
-    
-    if(itemCount == 0){
-        alert(itemName + ":" + " " + "Out Of Stock!");
-    }
- }
+}
+
+//function outOfStock(){
+//    if(itemCount == 0){
+//        alert(itemName + ":" + " " + "Out Of Stock!");
+//    }
+//}
 
 fillArray();
+countEmUp();
+countLoop();
+//outOfStock();
