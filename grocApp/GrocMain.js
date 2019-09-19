@@ -16,8 +16,7 @@ var inventory = {
 
 function reduceInventory(){
     for (var key in inventory){
-        var remaining = ((inventory[key]) - 50);
-        if(remaining === 0){
+        if((inventory[key] -= 50) === 0){
         alert (key + ":" + " " + "Out Of Stock");
         }
     }
