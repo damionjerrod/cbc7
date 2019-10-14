@@ -1,0 +1,11 @@
+{
+  "name": "review-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "map-filter-reduce.js",
+  "scripts": {
+    "test": "\"mocha\""
+  },
+  "author": "",
+  "license": "ISC"
+}
