@@ -1,11 +1,10 @@
-var faker = require('faker');
+var randomPic = faker.image.avatar();
+var randomName = faker.name.findName();
+var randomEmail = faker.internet.email();
+var randomCard = faker.helpers.createCard();
+var randomJob = faker.name.title();
 
-var randomName = faker.name.findName(); // Rowan Nikolaus
-var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
-var randomCard = faker.helpers.createCard(); // random contact card containing many properties
-
-console.log(randomName);
-console.log(randomEmail);
-console.log(randomCard);
-
-console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+document.getElementById("image").src = randomPic;
+document.getElementById("name").innerHTML = randomName;
+document.getElementById("title").innerHTML = randomJob;
+document.getElementById("email").innerHTML = randomEmail;
